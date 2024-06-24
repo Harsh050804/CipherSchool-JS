@@ -9,3 +9,45 @@ const q4 = ['Oct', 'Nov', 'Dec'];
 const year = [...q1, ...q2, ...q3, ...q4];
 
 console.log(year);
+
+
+code 2:-
+const q1 = [1,2,3,4,5,6,7,8,9];
+const maxVal = Math.max(...q1);
+console.log(maxVal);
+
+code 3:-
+const q1 = [1,2,3,4,5,6,7,8,9];
+
+let sum = 0;
+for(let num of q1){
+  sum += num;
+}
+console.log(sum);
+
+code 4:-
+const fruits = new Set()
+fruits.add("APPLE");
+fruits.add("Banana");
+fruits.add("APPLE");
+console.log(fruits);
+
+code 5:-
+class CAR{
+  constructor(name, mfg){
+    this.name = name;
+    this.mfg = mfg;
+  }
+}
+
+const car11 = new CAR('MERCEDES', 2020);
+console.log(car11);
+
+
+
+
+
+
+const fruits = new Map([["Apples", 200], ["Banana", 900]]);
+console.log(fruits);
+console.log(fruits.get("Apples"));
