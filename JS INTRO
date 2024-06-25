@@ -47,7 +47,6 @@ console.log(car11);
 
 
 
-
 const fruits = new Map([["Apples", 200], ["Banana", 900]]);
 console.log(fruits);
 console.log(fruits.get("Apples"));
